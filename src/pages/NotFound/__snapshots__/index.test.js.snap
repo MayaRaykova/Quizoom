@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> Should match the snapshot 1`] = `
+<main
+  className="makeStyles-main-1"
+>
+  <div
+    className="MuiPaper-root makeStyles-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiAvatar-root MuiAvatar-circular makeStyles-avatar-3"
+    >
+      <img
+        className="MuiAvatar-img"
+        src="/logo.jpg"
+      />
+    </div>
+    <br />
+    <h1
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Content Not Found
+    </h1>
+  </div>
+</main>
+`;

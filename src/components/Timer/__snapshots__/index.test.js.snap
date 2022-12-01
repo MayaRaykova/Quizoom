@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timer /> Should match the snapshot 1`] = `"00 : 00"`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> Should match the snapshot 1`] = `
+<main
+  className="HomePage-main-1"
+>
+  <div
+    className="MuiPaper-root HomePage-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiAvatar-root MuiAvatar-circular HomePage-avatar-3"
+    >
+      <img
+        className="MuiAvatar-img"
+        src="/logo.jpg"
+      />
+    </div>
+    <h1
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Welcome to Quizoom
+    </h1>
+    <a
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained HomePage-submit-4 MuiButton-containedPrimary MuiButton-fullWidth"
+      href="/register"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Register
+      </span>
+    </a>
+    <a
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained HomePage-submit-4 MuiButton-containedPrimary MuiButton-fullWidth"
+      href="/login"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Login
+      </span>
+    </a>
+  </div>
+</main>
+`;

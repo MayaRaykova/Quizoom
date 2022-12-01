@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Answers /> should match the snapshot 1`] = `null`;
+
+exports[`<SetQuestion /> should match the snapshot 1`] = `
+Array [
+  <div
+    className="MuiPaper-root SetQuestionForm-paper-2 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="question"
+        >
+          Question (
+          single
+           answer
+          
+          )
+          <span
+            aria-hidden={true}
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-multiline MuiInput-multiline"
+          onClick={[Function]}
+        >
+          <textarea
+            aria-invalid={false}
+            autoComplete="off"
+            autoFocus={true}
+            className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+            disabled={false}
+            id="question"
+            name="question"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            rows={1}
+            style={
+              Object {
+                "height": undefined,
+                "overflow": null,
+              }
+            }
+            value=""
+          />
+          <textarea
+            aria-hidden={true}
+            className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+            readOnly={true}
+            style={
+              Object {
+                "height": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "top": 0,
+                "transform": "translateZ(0)",
+                "visibility": "hidden",
+              }
+            }
+            tabIndex={-1}
+          />
+        </div>
+      </div>
+      <div
+        className="MuiBox-root-5 MuiBox-root-6"
+      >
+        <button
+          className="MuiButtonBase-root-34 MuiButton-root-7 MuiButton-contained-15 SetQuestionForm-button-4 MuiButton-containedPrimary-16"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label-8"
+          >
+            <span
+              className="MuiButton-startIcon-29 MuiButton-iconSizeMedium-32"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root-35"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            Answer
+          </span>
+        </button>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-44"
+      >
+        <div
+          className="MuiFormControl-root MuiFormControl-fullWidth"
+        >
+          <div
+            aria-label="quiz"
+            className="MuiFormGroup-root"
+            role="radiogroup"
+          />
+        </div>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained SetQuestionForm-submit-1 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+        disabled={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={-1}
+        type="submit"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Save Question
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-outlined SetQuestionForm-button-4 MuiButton-outlinedSecondary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <span
+            className="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
+              />
+            </svg>
+          </span>
+          Cancel
+        </span>
+      </button>
+    </form>
+  </div>,
+  <div />,
+]
+`;

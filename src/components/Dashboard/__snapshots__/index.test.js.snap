@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AvailableQuizList /> Should match the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`<CompletedQuizList /> Should match the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`<CompletedUsers /> Should match the snapshot 1`] = `null`;
+
+exports[`<OwnQuizList /> Should match the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`<UserData /> Should match the snapshot 1`] = `ShallowWrapper {}`;

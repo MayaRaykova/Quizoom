@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableTextField /> should match the snapshot 1`] = `
+Array [
+  <div
+    aria-describedby={null}
+    className="EditableTextField-userName-1"
+    onBlur={[Function]}
+    onDoubleClick={[Function]}
+    onFocus={[Function]}
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    title="Double click to edit"
+  />,
+  ")",
+]
+`;
